@@ -1,0 +1,146 @@
+body {
+    background-color: #041f1e;
+    color: #FBDDE2;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Ubuntu', sans-serif !important;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+h5 {
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+a {
+    color: #26504B;
+}
+
+a:hover {
+    color: #1E2D2F;
+}
+
+a:visited {
+    color: #041f1e; 
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: rgb(251,221,226);
+    background: radial-gradient(circle, rgba(251,221,226,1) 51%, rgba(218,197,227,1) 100%);
+    color: #041f1e;
+  }
+
+  .sub-header {
+    padding: 10px;
+    text-align: center;
+  }
+
+/* Navigation */
+
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #041f1e; /* Dark background color */
+  }
+
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: #FBDDE2; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  .navbar a:hover {
+    background-color: #FBDDE2;
+    color: #041f1e;
+  }
+
+
+
+/* Home layout */
+
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Column container */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 23%;
+    background-color: #153835; 
+    padding: 20px; 
+    margin-right: .5rem;
+  }
+  
+  /* Main column */
+  .main {
+    flex: 75%; 
+    background-color: #DAC5E3; 
+    color:#041f1e;
+    padding: 20px; 
+  }
+
+
+/* Footer */
+.footer {
+    padding: 5px;
+    text-align: center;
+    background: #041f1e;
+}
+
+.footer p {
+    color: #ebd1e3;
+}
+
+.footer a {
+    color:#A280A3;
+}
+
+.footer a:hover {
+    color:#ebd1e3;
+}
