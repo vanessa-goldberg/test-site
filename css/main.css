@@ -42,6 +42,7 @@ h5 {
 p {
     font-size: 15px;
     font-weight: 500;
+    letter-spacing: .5px;
 }
 
 a {
@@ -117,6 +118,10 @@ a:visited {
     margin-right: .5rem;
   }
   
+.side p {
+  line-height: 32px;
+}
+
   /* Main column */
   .main {
     flex: 75%; 
